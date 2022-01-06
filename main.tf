@@ -20,4 +20,14 @@ resource "aws_instance" "app_server" {
 
 
 
+  tags = {
+    git_commit           = "23fdce074e1b8382360ec1b91dd2949576679145"
+    git_file             = "main.tf"
+    git_last_modified_at = "2022-01-06 16:59:33"
+    git_last_modified_by = "y.b.yuan@accenture.com"
+    git_modifiers        = "y.b.yuan/yuanyue910919"
+    git_org              = "coco348"
+    git_repo             = "yor-123"
+    yor_trace            = "5509dc58-c70c-4079-81bc-266a0007baeb"
+  }
 }
